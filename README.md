@@ -12,13 +12,18 @@ Locate the Console icon in the QuickBar-Mini menu:
 
 ## Working with the console
 ![Console preview](https://i.imgur.com/F3qFiZo.png)
+
 1. Text area
+
    There will be displayed the lines you have been inserted in the lineCode textbox (look below). You can manually edit the lines by pressing on them: the selected line will appear in the lineCode textbox. You can also delete lines by pressing the small X icon at the right border of the screen.
 2. lineCode textbox
+
    This is the place you actually write the code for the following inserting. This line also handles the edition of the code, as well as saving and loading functionality (see below)
 3. Return label
+
    The result of the script will be printed in this area. If an error occured, the stack trace will be printed instead; the line with the error will be highlighted in the text area.
 4. Controls
+
    * Run button
    
       Runs the script. The result of the eval will be printed in the Return label.
