@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/statusControllerSettings/primaryScriptSources/-",
+		"value": "/scripts/consoleHandler.lua"
+	}
+]

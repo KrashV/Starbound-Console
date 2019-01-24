@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+    	"path": "/normal/-",
+    	"value": { "label" : "Console", "pane" : "/interface/customConsole/customconsolegui.config", "icon" : "/quickbar/consoleicon.png" }
+    }
+]

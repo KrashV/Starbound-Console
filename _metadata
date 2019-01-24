@@ -1,0 +1,7 @@
+{
+  "author" : "Degranon",
+  "description" : "Run the starbound code on a go",
+  "friendlyName" : "Script Console",
+  "name" : "scipteditor",
+  "version" : "1.0"
+}
