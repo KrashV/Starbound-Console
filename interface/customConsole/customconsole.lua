@@ -209,7 +209,9 @@ function saveFile()
 	local fileName = widget.getText("codeTextBox")
 	-- Safe file --
 	if not io then
-		return false, "Could not proceed script: check if safeScript is set to false"
+		widget.setFontColor("returnLabel", "red")
+		widget.setText("returnLabel", "Could not proceed script: check if safeScript is set to false")
+		return
 	end
 	
 	local file, error = io.open(fileName, "w")
@@ -248,7 +250,9 @@ end
 
 function loadFile()
 	if not io then
-		return false, "Could not proceed script: check if safeScript is set to false"
+		widget.setFontColor("returnLabel", "red")
+		widget.setText("returnLabel", "Could not proceed script: check if safeScript is set to false")
+		return
 	end
 	local file = io.open(widget.getText("codeTextBox"), "r")
 	if not file then
